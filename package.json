@@ -1,0 +1,30 @@
+{
+  "name": "store-locator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel199410/store-locator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniel199410/store-locator/issues"
+  },
+  "homepage": "https://github.com/daniel199410/store-locator#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.3",
+    "node-geocoder": "^3.25.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
